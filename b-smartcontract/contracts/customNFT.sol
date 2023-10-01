@@ -1,33 +1,35 @@
 // SPDX-License-Identifier: GPL-3.0
-
-
-pragma solidity ^0.8.0;
-
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-
-contract CustomNFT is ERC721Enumerable, Ownable {
-    using Strings for uint256;
+pragma solidity ^0.5.0;
+import "./TRC721.sol";
+contract BlocVerse is TRC721, TRC721Enumerable, TRC721MetadataMintable{
+    //using Strings for uint256;
 
     string private _baseTokenURI;
     uint256 private _tokenIdCounter;
-
-    constructor(string memory name, string memory symbol, string memory baseTokenURI) ERC721(name, symbol) {
-        _baseTokenURI = baseTokenURI;
-        _tokenIdCounter = 1;
+    address private owner;
+    
+    modifier onlyOwner {
+        require(msg.sender == owner, "Only owner can call this function");
+        _;
     }
 
-    function setBaseTokenURI(string memory newBaseTokenURI) external onlyOwner {
+    constructor(string memory name, string memory symbol, string memory baseTokenURI) public TRC721Metadata(name, symbol) {
+        _baseTokenURI = baseTokenURI;
+        _tokenIdCounter = 1;
+        owner = msg.sender;
+    }
+
+    function setBaseTokenURI(string calldata newBaseTokenURI) external onlyOwner {
         _baseTokenURI = newBaseTokenURI;
     }
 
-    function mintNFT(string memory name, string memory description, string memory photoURI) external onlyOwner {
+    function mintNFT(string calldata name, string calldata description, string calldata photoURI) external onlyOwner {
         uint256 tokenId = _tokenIdCounter;
         _mint(msg.sender, tokenId);
         _tokenIdCounter++;
 
     
-        string memory tokenURI = string(abi.encodePacked(_baseTokenURI, tokenId.toString()));
+        string memory tokenURI = photoURI;
         _setTokenURI(tokenId, tokenURI);
 
         
@@ -39,7 +41,7 @@ contract CustomNFT is ERC721Enumerable, Ownable {
         return tokenURIs[tokenId];
     }
 
-    function _baseURI() internal view override returns (string memory) {
+    function _baseURI() internal view returns (string memory) {
         return _baseTokenURI;
     }
 
