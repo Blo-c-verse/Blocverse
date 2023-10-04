@@ -1,0 +1,629 @@
+.about-us {
+  background-color: #fcfefe;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-us .div {
+  background-color: var(--white);
+  width: 100%;
+  height: 3396px;
+  position: relative;
+}
+
+.about-us .footer {
+  position: absolute;
+  width: 100%;
+  height: 427px;
+  bottom: 0;
+  /* left: 0;   */
+  background-color: var(--primary);
+}
+
+.about-us .group {
+  position: absolute;
+  width: 240px;
+  height: 85px;
+  top: 70px;
+  left: 187px;
+}
+
+.about-us .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  color: var(--accent);
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about-us .begin-your-NFT {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  white-space: nowrap;
+}
+
+.about-us .group-2 {
+  position: absolute;
+  width: 144px;
+  height: 169px;
+  top: 70px;
+  left: 462px;
+}
+
+.about-us .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 600;
+  color: var(--white);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about-us .group-3 {
+  position: absolute;
+  width: 127px;
+  height: 109px;
+  top: 60px;
+  left: 0;
+}
+
+.about-us .text-wrapper-3 {
+  top: 0;
+  left: 0;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 16px;
+  line-height: 22.4px;
+  position: absolute;
+  font-family: "Work Sans", Helvetica;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.about-us .text-wrapper-4 {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.about-us .text-wrapper-5 {
+  position: absolute;
+  top: 58px;
+  left: 0;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.about-us .text-wrapper-6 {
+  top: 87px;
+  left: 0;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 16px;
+  line-height: 22.4px;
+  position: absolute;
+  font-family: "Work Sans", Helvetica;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.about-us .group-4 {
+  position: absolute;
+  width: 226px;
+  height: 169px;
+  top: 70px;
+  left: 637px;
+}
+
+.about-us .group-5 {
+  position: absolute;
+  width: 232px;
+  height: 109px;
+  top: 60px;
+  left: 0;
+}
+
+.about-us .group-6 {
+  position: absolute;
+  width: 274px;
+  height: 110px;
+  top: 70px;
+  left: 906px;
+}
+
+.about-us .overlap-group-wrapper {
+  position: absolute;
+  width: 274px;
+  height: 50px;
+  top: 60px;
+  left: 0;
+}
+
+.about-us .overlap-group {
+  position: relative;
+  width: 272px;
+  height: 50px;
+  background-color: var(--accent);
+  border-radius: 5px;
+}
+
+.about-us .vector {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 15px;
+  left: 231px;
+}
+
+.about-us .text-wrapper-7 {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  color: var(--primary);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.about-us .img {
+  position: absolute;
+  width: 992px;
+  height: 1px;
+  top: 286px;
+  left: 187px;
+  object-fit: cover;
+}
+
+.about-us .vector-2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 330px;
+  left: 1067px;
+}
+
+.about-us .vector-3 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 330px;
+  left: 1111px;
+}
+
+.about-us .vector-4 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 330px;
+  left: 1155px;
+}
+
+.about-us .p {
+  position: absolute;
+  top: 331px;
+  left: 187px;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about-us .overlap {
+  position: absolute;
+  width: 100%;
+  /* height: 2436px; */
+  top: 474px;
+  left: 218px;
+}
+
+.about-us .group-7 {
+  position: absolute;
+  width: 100%;
+  /* height: 2436px; */
+  top: 0;
+  left: 0;
+}
+
+.about-us .text-wrapper-8 {
+  position: absolute;
+  top: 0;
+  left: 443px;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about-us .group-8 {
+  position: absolute;
+  width: 457px;
+  height: 107px;
+  top: 59px;
+  left: 468px;
+}
+
+.about-us .group-9 {
+  position: absolute;
+  width: 197px;
+  height: 25px;
+  top: 0;
+  left: 0;
+}
+
+.about-us .text-wrapper-9 {
+  position: absolute;
+  top: 0;
+  left: 26px;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  white-space: nowrap;
+}
+
+.about-us .rectangle {
+  width: 16px;
+  height: 16px;
+  top: 4px;
+  background-color: var(--secondary);
+  border-radius: 50px;
+  position: absolute;
+  left: 0;
+}
+
+.about-us .group-10 {
+  position: absolute;
+  width: 191px;
+  height: 25px;
+  top: 0;
+  left: 266px;
+}
+
+.about-us .group-11 {
+  position: absolute;
+  width: 213px;
+  height: 25px;
+  top: 41px;
+  left: 0;
+}
+
+.about-us .overlap-group-2 {
+  position: absolute;
+  width: 193px;
+  height: 66px;
+  top: 41px;
+  left: 266px;
+}
+
+.about-us .group-12 {
+  position: absolute;
+  width: 105px;
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+
+.about-us .text-wrapper-10 {
+  position: absolute;
+  top: 0;
+  left: 26px;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 25.2px;
+}
+
+.about-us .group-13 {
+  position: absolute;
+  width: 193px;
+  height: 25px;
+  top: 41px;
+  left: 0;
+}
+
+.about-us .group-14 {
+  position: absolute;
+  width: 235px;
+  height: 25px;
+  top: 82px;
+  left: 0;
+}
+
+.about-us .explore-our-wrapper {
+  position: absolute;
+  width: 629px;
+  height: 336px;
+  top: 195px;
+  left: 419px;
+}
+
+.about-us .explore-our {
+  position: absolute;
+  width: 627px;
+  top: 0;
+  left: 0;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.about-us .blo-c-verse-is-an-wrapper {
+  position: absolute;
+  width: 963px;
+  height: 1820px;
+  top: 616px;
+  left: 0;
+}
+
+.about-us .blo-c-verse-is-an {
+  position: absolute;
+  width: 961px;
+  top: 0;
+  left: 0;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.about-us .bot-logo {
+  position: absolute;
+  width: 345px;
+  height: 476px;
+  top: 16px;
+  left: 23px;
+  object-fit: cover;
+}
+
+.about-us .overlap-2 {
+  position: absolute;
+  width: 100%;
+  height: 253px;
+  top: 160px;
+  left: 0;
+  background-image: url(./img/whatsapp-image-2023-09-29-at-9-47-3.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.about-us .rectangle-2 {
+  margin: 0;
+  width: 100%;
+  /* height: 250px; */
+  top: 3px;
+  position: absolute;
+  /* left: 0; */
+}
+
+.about-us .overlap-wrapper {
+  position: absolute;
+  width: 234px;
+  height: 110px;
+  top: 59px;
+  left: 21px;
+}
+
+.about-us .overlap-3 {
+  position: relative;
+  width: 232px;
+  height: 110px;
+}
+
+.about-us .text-wrapper-11 {
+  top: 41px;
+  left: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: normal;
+  position: absolute;
+  font-family: "Work Sans", Helvetica;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.about-us .home {
+  position: absolute;
+  width: 164px;
+  height: 110px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.about-us .property-about {
+  top: 20px;
+  position: absolute;
+  width: 124px;
+  height: 25px;
+  left: 20px;
+}
+
+.about-us .text-wrapper-12 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  white-space: nowrap;
+}
+
+.about-us .property {
+  top: 65px;
+  position: absolute;
+  width: 124px;
+  height: 25px;
+  left: 20px;
+}
+
+.about-us .navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 276px;
+  padding: 17px 187px 18px;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  background-color: var(--primary);
+}
+
+.about-us .navbar-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -45.75px;
+}
+
+.about-us .text-wrapper-13 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about-us .text-wrapper-14 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 600;
+  color: var(--accent);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about-us .group-15 {
+  align-items: center;
+  display: flex;
+  gap: 25px;
+  /* position: relative; */
+  width: 231.5px;
+  height: 45px;
+  /* background-color: red; */
+}
+
+.search-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.search {
+  margin-top: 0;
+  height: 35px;
+  width: 170px;
+  border-radius: 20px;
+  text-align: center;
+  border: none;
+  background-color: #bfd2f8;
+  color: #1f2b6c;
+}
+
+.about-us .button-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Work Sans", Helvetica;
+  font-weight: 500;
+  color: var(--primary);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.about-us .topmost {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+}
+
+.about-us .BLO-c-VERSE {
+  top: 18px;
+  left: 187px;
+  font-weight: 600;
+  color: transparent;
+  font-size: 36px;
+  line-height: normal;
+  position: absolute;
+  font-family: "Work Sans", Helvetica;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.about-us .span {
+  color: #1f2b6c;
+}
+
+.about-us .text-wrapper-15 {
+  color: #159eec;
+}

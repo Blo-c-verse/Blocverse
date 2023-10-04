@@ -1,0 +1,19 @@
+:root {
+  --white: rgba(252, 254, 254, 1);
+  --primary: rgba(31, 43, 108, 1);
+  --black: rgba(33, 33, 36, 1);
+  --accent: rgba(191, 210, 248, 1);
+  --secondary: rgba(21, 158, 236, 1);
+  --display-2-font-family: "WorkSans-Regular", Helvetica;
+  --display-2-font-weight: 400;
+  --display-2-font-size: 32px;
+  --display-2-letter-spacing: 0px;
+  --display-2-line-height: normal;
+  --display-2-font-style: normal;
+  --caption-font-family: "WorkSans-Bold", Helvetica;
+  --caption-font-weight: 700;
+  --caption-font-size: 18px;
+  --caption-letter-spacing: 2.88px;
+  --caption-line-height: normal;
+  --caption-font-style: normal;
+}
